@@ -1,0 +1,11 @@
+[package]
+name = "canary-grid"
+version = "1.0.0"
+edition = "2021"
+description = "Self-hosted honeytokens: mint signed decoy credentials and documents, catch the first touch with a tiny listener, and find tokens in logs. Zero dependencies."
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
