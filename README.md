@@ -2,7 +2,7 @@
 
 Most breaches are noticed months late. A **honeytoken** is a fake credential or document that no legitimate person ever touches, so the first time anything uses it you have a high-confidence alert with no tuning. **canary-grid** is a small self-hosted version: mint signed decoys, plant them where an intruder would look, catch the first touch with a tiny listener, and search logs for tokens that leaked.
 
-Rust, zero dependencies, about 1,000 lines. No SaaS, no account, no phone-home.
+Rust, zero dependencies, about 1,600 lines including tests. No SaaS, no account, no phone-home.
 
 ![demo](docs/demo.png)
 
